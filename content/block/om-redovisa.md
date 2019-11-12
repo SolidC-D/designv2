@@ -1,3 +1,4 @@
 #### Redovisa på GitHub
 
-Skriv något kort om ditt redovisa-repo och länka till [repot för me/redovisa på GitHub](XXX).
+Sidan och dess källkod finns på GitHub och kan nås på följande länk:                    [repot för me/redovisa på GitHub](https://github.com/SolidC-D/designv2).
+
