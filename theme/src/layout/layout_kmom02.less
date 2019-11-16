@@ -1,0 +1,168 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+ 
+
+.site-logo {
+    display: none;
+}
+ 
+ .inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.wrap-all {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-navbar li {
+    float: left;
+    list-style-type: none;
+    //padding: 2.0em;
+    padding-left: 1.0em;
+    padding-right: 1.0em;
+
+    //border: 1px solid #999;
+    color: black;
+}
+
+.my-navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.rm-small {
+    background-color: white;
+}
+
+
+.region-flash {
+    clear:both;
+}
+
+.outer-wrap-footer {
+    background-color: rgb(255,228,225);    
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+}
+
+.inner-wrap-header {
+    max-width: 100%;
+}
+
+
+.outer-wrap-header {
+    background-color: grey;
+    //overflow: auto;
+    #design-mixin.clearfix();
+}
+
+
+// .outer-wrap-flash {
+//     background-color: grey;
+// }
+
+
+.region-header-col-1,
+.region-header-col-3 {
+    width: 15%;
+    float: left;
+}
+
+.region-header-col-2 {
+    width: 70%;
+    float: left;
+    text-align: center;
+}
+
+
+// Main and sidebar layout
+.inner-wrap-main {
+    #design-mixin.clearfix();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.region-main {
+    width: 70%;
+    margin-left: 10%;
+    float: left;
+    #design-mixin.clearfix();
+
+    &.has-sidebar {
+        margin-left: 0;
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+        width: 60%;
+    }
+
+}
+
+
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 30%;
+    float: left;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+    //float: left;
+}
+// .region-main {
+//     width: 70%;
+//     float: left;
+
+// }
+
+
+
+.byline {
+    border: outset;
+    overflow: auto;
+    background-color: rgb(255,245,238);
+    clear: both;
+    border-color: grey;
+}
+
+.byline img {
+    width: 150px;
+    float: left;
+    padding-top: 0;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
