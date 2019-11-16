@@ -1,3 +1,5 @@
-#### Footer col 2
+#### Solus
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Sidan är gjord med verktyg körandes i Solus:
+
+[Solus](https://getsol.us/home/)

@@ -1,6 +1,21 @@
 ---
-title: "Min fina titel"
 views:
+    kursrepo:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta: 
+                type: single
+                route: block/om-kursrepo
+
+    redovisa:
+        region: sidebar-left
+        template: anax/v2/block/default
+        data:
+            meta: 
+                type: single
+                route: block/om-redovisa
+
     byline:
         region: main
         template: anax/v2/block/default
@@ -9,8 +24,6 @@ views:
             meta: 
                 type: single
                 route: block/byline
-
-
 ---
 Testa
 =========================

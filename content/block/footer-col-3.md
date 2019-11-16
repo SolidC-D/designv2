@@ -1,3 +1,6 @@
-#### Footer col 3
+#### Arch
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Arch är också bra, men inte lika bra som Solus:
+
+[Arch](https://www.archlinux.org/)
+

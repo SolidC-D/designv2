@@ -1,3 +1,7 @@
-#### Footer col 1
+#### Linux-distributioner
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Distrowatch är bra: 
+
+[Distrowatch](https://distrowatch.com/)
+
+
